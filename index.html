@@ -410,15 +410,13 @@
     <footer class="footer">
       <div class="container footer-flex">
         <h2 class="visually-hidden"></h2>
-       <address class="footer-logo-address">
+       <address class="footer-address">
         <a class="footer-logo" href="./index.html"
           ><p lang="en">
             <span class="logo-start">Web</span
             ><span class="footer-logo-end">Studio</span>
           </p></a
         >
-       </address>
-       <address class="footer-list-address">
         <ul class="footer-list">
           <li class="footer-item">
             <p class="footer-addres">м. Київ, пр-т Лесі Українки, 26</p>
@@ -485,12 +483,14 @@
               maxlength="10"
               title="Адрес електронної почти введений некоректно! Приклад:example@mail.com">
           </label>
-          <button class="subscribe-btn">
-            Підписатися
-          </button>
-          <svg class="subscribe-svg">
-            <use class="subscribe-use" href="./img/sprite.svg#paper-plane"></use>
-          </svg>
+          <div class="subscribe-div">
+            <button class="subscribe-btn" type="button">
+              Підписатися
+            </button>
+            <svg class="subscribe-svg">
+              <use class="subscribe-use" href="./img/sprite.svg#paper-plane"></use>
+            </svg>
+          </div>
         </form>
        </div>
       </div>
@@ -572,7 +572,7 @@
         required>
         <span class="modal-span">Погоджуюся з розсилкою та приймаю <a class="modal-span-link" href="#">Умови договору</a></span>
       </label>
-      <button class="modal-btn">
+      <button class="modal-btn" type="button">
         Відправити
       </button>
     </form>
